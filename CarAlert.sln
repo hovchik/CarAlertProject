@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.128
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAlert.API", "CarAlert.API\CarAlert.API.csproj", "{BBB7B62B-1B88-42FE-9CE2-5B7A4D7CD646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAlert.API", "CarAlert.API\CarAlert.API.csproj", "{BBB7B62B-1B88-42FE-9CE2-5B7A4D7CD646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAlert.Tests", "CarAlert.Tests\CarAlert.Tests.csproj", "{14363064-62A7-4445-8B9A-D26134755680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAlert.Tests", "CarAlert.Tests\CarAlert.Tests.csproj", "{14363064-62A7-4445-8B9A-D26134755680}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAlert", "CarAlert\CarAlert.csproj", "{30669F7B-614C-44EA-BB4A-0B98510420F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonModels", "CommonModels\CommonModels.csproj", "{6467291F-1A88-4F5F-84D5-93B8FC5D9A84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{30669F7B-614C-44EA-BB4A-0B98510420F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30669F7B-614C-44EA-BB4A-0B98510420F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{30669F7B-614C-44EA-BB4A-0B98510420F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6467291F-1A88-4F5F-84D5-93B8FC5D9A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6467291F-1A88-4F5F-84D5-93B8FC5D9A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6467291F-1A88-4F5F-84D5-93B8FC5D9A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6467291F-1A88-4F5F-84D5-93B8FC5D9A84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
